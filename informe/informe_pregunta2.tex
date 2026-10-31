@@ -210,18 +210,18 @@ Limitaciones: dos semillas para el modelo completo y una para la ablación reduc
 Una U-Net propia con VV y VH supera a la línea base de Otsu en los eventos conocidos de Sen1Floods11 (IoU 0.657 frente a 0.554), de forma estable entre semillas y con 36\,\% menos falsos positivos. Fuera de la distribución, la ventaja desaparece en Bolivia y, en la región de Lima que construimos, incluso el método clásico se rompe (IoU 0.010) por una combinación de referencia óptica de extensión máxima, desierto costero y escala extrema. Cuando hay imagen óptica disponible, fusionarla con el SAR eleva el IoU a 0.807 en test y 0.771 en Bolivia, con la cautela de que la etiqueta se trazó sobre esa misma óptica. El código, el cuaderno de Colab y la construcción de Lima son reproducibles con un solo comando en \url{https://github.com/loupv99/sen1floods11-unet-lima}.
 
 \begin{thebibliography}{12}
-\bibitem{bonafilia2020} D.~Bonafilia, B.~Tellman, T.~Anderson y E.~Issenberg. Sen1Floods11: a georeferenced dataset to train and test deep learning flood algorithms for Sentinel-1. En \emph{CVPR Workshops}, pp.~210--211, 2020.
-\bibitem{chini2019} M.~Chini, R.~Pelich, L.~Pulvirenti, N.~Pierdicca, R.~Hostache y P.~Matgen. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. \emph{Remote Sensing}, 11(2):107, 2019.
+\bibitem{bonafilia2020} D.~Bonafilia, B.~Tellman, T.~Anderson y E.~Issenberg. Sen1Floods11: a georeferenced dataset to train and test deep learning flood algorithms for Sentinel-1. En \emph{CVPR Workshops}, pp.~210--211, 2020. doi:10.1109/CVPRW50498.2020.00113.
+\bibitem{chini2019} M.~Chini, R.~Pelich, L.~Pulvirenti, N.~Pierdicca, R.~Hostache y P.~Matgen. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. \emph{Remote Sensing}, 11(2):107, 2019. doi:10.3390/rs11020107.
 \bibitem{emsn038} Copernicus Emergency Management Service. EMSN038: Post-disaster situation analyses of flood and landslides in Lima, Peru. \url{https://mapping.emergency.copernicus.eu/activations/EMSN038/}. Consultado el 31-oct-2026.
-\bibitem{isikdogan2017} F.~Isikdogan, A.~C.~Bovik y P.~Passalacqua. Surface water mapping by deep learning. \emph{IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.}, 10(11):4909--4918, 2017.
-\bibitem{mason2014} D.~C.~Mason, L.~Giustarini, J.~Garcia-Pintado y H.~L.~Cloke. Detection of flooded urban areas in high resolution synthetic aperture radar images using double scattering. \emph{Int. J. Appl. Earth Obs. Geoinf.}, 28:150--159, 2014.
-\bibitem{milletari2016} F.~Milletari, N.~Navab y S.-A.~Ahmadi. V-Net: fully convolutional neural networks for volumetric medical image segmentation. En \emph{3DV}, pp.~565--571, 2016.
-\bibitem{oktay2018} O.~Oktay et~al. Attention U-Net: learning where to look for the pancreas. En \emph{MIDL}, 2018.
-\bibitem{otsu1979} N.~Otsu. A threshold selection method from gray-level histograms. \emph{IEEE Trans. Syst., Man, Cybern.}, 9(1):62--66, 1979.
-\bibitem{pekel2016} J.-F.~Pekel, A.~Cottam, N.~Gorelick y A.~S.~Belward. High-resolution mapping of global surface water and its long-term changes. \emph{Nature}, 540:418--422, 2016.
+\bibitem{isikdogan2017} F.~Isikdogan, A.~C.~Bovik y P.~Passalacqua. Surface water mapping by deep learning. \emph{IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.}, 10(11):4909--4918, 2017. doi:10.1109/JSTARS.2017.2735443.
+\bibitem{mason2014} D.~C.~Mason, L.~Giustarini, J.~Garcia-Pintado y H.~L.~Cloke. Detection of flooded urban areas in high resolution synthetic aperture radar images using double scattering. \emph{Int. J. Appl. Earth Obs. Geoinf.}, 28:150--159, 2014. doi:10.1016/j.jag.2013.12.002.
+\bibitem{milletari2016} F.~Milletari, N.~Navab y S.-A.~Ahmadi. V-Net: fully convolutional neural networks for volumetric medical image segmentation. En \emph{3DV}, pp.~565--571, 2016. doi:10.1109/3DV.2016.79.
+\bibitem{oktay2018} O.~Oktay et~al. Attention U-Net: learning where to look for the pancreas. En \emph{MIDL}, 2018. arXiv:1804.03999.
+\bibitem{otsu1979} N.~Otsu. A threshold selection method from gray-level histograms. \emph{IEEE Trans. Syst., Man, Cybern.}, 9(1):62--66, 1979. doi:10.1109/TSMC.1979.4310076.
+\bibitem{pekel2016} J.-F.~Pekel, A.~Cottam, N.~Gorelick y A.~S.~Belward. High-resolution mapping of global surface water and its long-term changes. \emph{Nature}, 540:418--422, 2016. doi:10.1038/nature20584.
 \bibitem{planetary} Microsoft Planetary Computer. Sentinel-1 Radiometrically Terrain Corrected (RTC). \url{https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc}. Consultado el 31-oct-2026.
-\bibitem{ronneberger2015} O.~Ronneberger, P.~Fischer y T.~Brox. U-Net: convolutional networks for biomedical image segmentation. En \emph{MICCAI}, pp.~234--241, 2015.
-\bibitem{zhou2018} Z.~Zhou, M.~M.~R.~Siddiquee, N.~Tajbakhsh y J.~Liang. UNet++: a nested U-Net architecture for medical image segmentation. En \emph{DLMIA}, pp.~3--11, 2018.
+\bibitem{ronneberger2015} O.~Ronneberger, P.~Fischer y T.~Brox. U-Net: convolutional networks for biomedical image segmentation. En \emph{MICCAI}, pp.~234--241, 2015. doi:10.1007/978-3-319-24574-4\_28.
+\bibitem{zhou2018} Z.~Zhou, M.~M.~R.~Siddiquee, N.~Tajbakhsh y J.~Liang. UNet++: a nested U-Net architecture for medical image segmentation. En \emph{DLMIA}, pp.~3--11, 2018. doi:10.1007/978-3-030-00889-5\_1.
 \end{thebibliography}
 
 \end{document}
