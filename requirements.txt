@@ -1,0 +1,15 @@
+torch>=2.1
+numpy>=1.24
+scipy>=1.10
+tifffile>=2023.1
+matplotlib>=3.7
+# región de Lima (src/lima_*.py, peru_prep.py): Planetary Computer + geodatabase EMSN038
+rasterio>=1.3
+geopandas>=1.0
+pyogrio>=0.7
+shapely>=2.0
+pystac-client>=0.7
+planetary-computer>=1.0
+requests>=2.28
+# opcional, ruta alternativa por Earth Engine (gee_export_lima.py):
+# earthengine-api>=0.1.390
