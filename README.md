@@ -40,6 +40,7 @@ para construir la región de Lima.
 | U-Net completa (`A_dorado`, Colab T4, semillas 0 y 1) | 0.658 / 0.656 | 0.645 / 0.670 | — |
 | U-Net reducida con saltos (CPU, 1 semilla) | 0.647 | 0.578 | — |
 | U-Net reducida sin saltos (CPU, 1 semilla) | 0.628 | 0.624 | — |
+| U-Net reducida SAR + Sentinel-2 (bono, CPU, 1 semilla) | 0.807 | 0.771 | — |
 | Otsu-VH (sin entrenar) | 0.554 | 0.718 | 0.010 |
 
 Lima: 51 chips de 512×512, 1.25 % de píxeles con agua; el umbral de Otsu de la escena es −16.9 dB (en Sen1Floods11, de −20
