@@ -31,6 +31,7 @@ para construir la región de Lima.
 | `src/lima_etiquetas.py`, `src/lima_s1.py`, `src/lima_otsu.py`, `src/lima_mapa.py` | Región de Lima: EMSN038 + Sentinel-1B del 17-mar-2017, línea base Otsu y mapa | 4 |
 | `notebook/Pregunta2_UNet_Lima_Colab.ipynb` | Cuaderno único para Colab (GPU T4): clona este repo y corre todo | 1–6 |
 | `resultados/` | Figuras de nuestros resultados y el script que las genera | 2–5 |
+| `informe/informe_pregunta2.pdf` | Informe en formato NeurIPS (fuente LaTeX en la misma carpeta) | — |
 
 ## Resultados del grupo (IoU de la clase agua)
 
